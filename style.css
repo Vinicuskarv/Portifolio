@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.fundo1 {
+    background-image: url("./img/pexels-diana-plotkin-1042828.jpg");
+    background-position: center center;
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.fundo2 {
+    background-image: url("./img//pexels-veeterzy-38136.jpg");
+    background-position: center center;
+    background-size: cover;
+    position:absolute;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+}
+#navbar{
+    position: fixed;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.571);
+    width: 100%;
+}
+#containe_nav ul li{
+    position: relative;
+    padding: 0px 15px;
+    background: rgba(0, 0, 0, 0.221);
+    margin: 15px;
+    border-radius: 5px;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+#containe_nav ul li:hover{
+    background-color: rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+}
+#containe_nav ul li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -3px;
+    border-radius: inherit;
+    background-image: linear-gradient(45deg, #2af59a43, #009cfd22);
+}
+  
+#containe_nav ul li a{
+    color: aliceblue;
+    
+}
+#NameMenu{
+    font-family: 'Foldit', cursive;
+    background: -webkit-linear-gradient(#2AF598, #009EFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 44px;
+}
+#sobreMin{
+    background-image: url("./img/pexels-diana-plotkin-1042828.jpg");
+    margin-top: 110px;
+    height: 500px;
+    border-radius: 28px;
+    padding: 50px;
+    box-shadow: 10px 10px 100px black;
+    border: 1px solid rgba(0, 0, 0, 0.495);
+}
+#sobreMin h1{
+    font-family: 'Foldit', cursive;
+    background: -webkit-linear-gradient(#2AF598, #009EFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    cursor: pointer;
+}
+#sobreMin h1 span:hover{
+    background: -webkit-linear-gradient( #013c61,#01693a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#sobreMin svg{
+    color: #00d7fd;
+    border: 2px solid rgb(11, 164, 198);
+    width: 25px;
+    height: 25px;
+    border-radius: 60px;
+}
+#sobreMin svg:hover{
+    color: #009cfd;
+    border: 2px solid rgb(1, 45, 115);
+}
