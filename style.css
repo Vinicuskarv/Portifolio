@@ -1,73 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     padding: 0;
     margin: 0;
-}
-.fundo1 {
-    background-image: url("./img/pexels-diana-plotkin-1042828.jpg");
-    background-position: center center;
-    background-size: cover;
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 700px;
-    z-index: -1;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.fundo2 {
-    background-image: url("./img//pexels-veeterzy-38136.jpg");
-    background-position: center center;
-    background-size: cover;
-    position:absolute;
-    top: 700px;
-    left: 0;
-    width: 100%;
-    height: 700px;
-    z-index: -1;
-}
 #navbar{
     position: fixed;
     top: 10px;
-    background-color: rgba(0, 0, 0, 0.571);
     width: 100%;
+    background-color: rgb(231, 231, 231);
 }
-#containe_nav ul li{
-    position: relative;
-    padding: 0px 15px;
-    background: rgba(0, 0, 0, 0.221);
-    margin: 15px;
-    border-radius: 5px;
-    -webkit-transition: background-color 2s ease-out;
-    -moz-transition: background-color 2s ease-out;
-    -o-transition: background-color 2s ease-out;
-    transition: background-color 2s ease-out;
+.nav-link{
+    margin: 0 50px 0 20px;
+    font-family: 'Foldit', cursive;
+    background: -webkit-linear-gradient(#178b57, #00a0fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
 }
-#containe_nav ul li:hover{
-    background-color: rgba(0, 0, 0, 0.596);
-    cursor: pointer;
+.nav-link:hover{
+    background: -webkit-linear-gradient(#09af64, #00a0fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-#containe_nav ul li::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    margin: -3px;
-    border-radius: inherit;
-    background-image: linear-gradient(45deg, #2af59a43, #009cfd22);
-}
-  
 #containe_nav ul li a{
-    color: aliceblue;
-    
+    color: rgb(0, 0, 0); 
 }
 #NameMenu{
     font-family: 'Foldit', cursive;
@@ -76,17 +36,27 @@
     -webkit-text-fill-color: transparent;
     font-size: 44px;
 }
+#Menu{
+    font-family: 'Foldit', cursive;
+    background: -webkit-linear-gradient(#2AF598, #009EFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:26px;
+}
+#Menu:hover{
+    background: -webkit-linear-gradient( #0082d2,#14c475);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #sobreMin{
-    background-image: url("./img/pexels-diana-plotkin-1042828.jpg");
+    background-color: #767f853d;
     margin-top: 110px;
     height: 500px;
-    border-radius: 28px;
+    border-radius: 10px;
     padding: 50px;
-    box-shadow: 10px 10px 100px black;
-    border: 1px solid rgba(0, 0, 0, 0.495);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.078);
 }
 #sobreMin h1{
-    font-family: 'Foldit', cursive;
     background: -webkit-linear-gradient(#2AF598, #009EFD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -99,13 +69,31 @@
     -webkit-text-fill-color: transparent;
 }
 #sobreMin svg{
-    color: #00d7fd;
-    border: 2px solid rgb(11, 164, 198);
+    border: none;
     width: 25px;
     height: 25px;
     border-radius: 60px;
 }
 #sobreMin svg:hover{
-    color: #009cfd;
-    border: 2px solid rgb(1, 45, 115);
+    border: 1px solid rgb(1, 45, 115);
+}
+#sobreMin p {
+    color: #013c61;
+}
+.contaiIcons{
+    background-color: #53697917;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+}
+#footer{
+    margin-top: 30px;
+    width: 100%;
+    padding: 50px 0 40px 0;
+    background-color: rgb(231, 231, 231);
+}
+.textfooter{
+    font-family: 'Courgette', cursive;
+    text-decoration: none
 }
