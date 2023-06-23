@@ -48,44 +48,57 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#sobreMin{
+#ContainerPrinc{
     background-color: #767f853d;
     margin-top: 110px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
     padding: 50px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.078);
 }
-#sobreMin h1{
+#ContainerPrinc h1{
     background: -webkit-linear-gradient(#2AF598, #009EFD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60px;
     cursor: pointer;
 }
-#sobreMin h1 span:hover{
+#ContainerPrinc h1 span:hover{
     background: -webkit-linear-gradient( #013c61,#01693a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#sobreMin svg{
+#ContainerPrinc svg{
     border: none;
     width: 25px;
     height: 25px;
     border-radius: 60px;
 }
-#sobreMin svg:hover{
+#ContainerPrinc svg:hover{
     border: 1px solid rgb(1, 45, 115);
 }
-#sobreMin p {
+#ContainerPrinc p {
     color: #013c61;
+}
+.button{
+    margin: 20px 0 30px 0;
+    border-radius: 20px;
+    width: 251px;
+    height: 50px;
+    background-color: #263138d8;
+    color: #ffffff;
+    border: none;
 }
 .contaiIcons{
     background-color: #53697917;
     border-radius: 30px;
-    width: 150px;
+    width: 80px;
     height: 35px;
     padding: 5px;
+    text-align: center;
+}
+.ImgPrinc{
+    width: 350px;
 }
 #footer{
     margin-top: 30px;
@@ -96,4 +109,23 @@
 .textfooter{
     font-family: 'Courgette', cursive;
     text-decoration: none
+}
+#ImgPerfio{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.ContainerInter{
+    text-align: center;
+}
+.IconSkill{
+    width: 25px;
+}
+.Skill{
+    margin: auto;
+    padding: 10px;
+}
+.boxInter p{
+    margin-top: auto;
+    margin-left: 80px;
 }
