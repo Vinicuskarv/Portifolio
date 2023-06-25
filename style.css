@@ -92,10 +92,14 @@
 .contaiIcons{
     background-color: #53697917;
     border-radius: 30px;
-    width: 80px;
+    width: 100px;
     height: 35px;
     padding: 5px;
     text-align: center;
+    text-decoration: none;
+}
+.contaiIcons a{
+    text-decoration: none;
 }
 .ImgPrinc{
     width: 350px;
