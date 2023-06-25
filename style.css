@@ -126,6 +126,74 @@
     padding: 10px;
 }
 .boxInter p{
+    font-size: smaller;
     margin-top: auto;
     margin-left: 80px;
+}
+.navEdit{
+    margin: 10px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.nav-pills .active{
+    background-color: #559da2;
+    color: rgb(250, 244, 235);
+}
+button:focus {
+    outline: none !important;
+}
+#pills-tab{
+    margin-top: 30px;
+}
+.tab-pane{
+    padding: 10px ;
+}
+.card-profile img{
+    border-radius: 30px;
+    opacity:50%;
+}
+.campoProj .card{
+    background-color: transparent;
+    border-radius: 30px;
+}
+.elemento-container {
+    position: relative;
+    overflow: hidden;
+}
+.elemento {
+    background-color: #000; 
+    transition: opacity 0.5s ease;
+}
+.elemento:hover {
+    opacity: 1;
+}
+.elemento img {
+    object-fit: cover;
+}
+.campoIconsProfile{
+    position:absolute;
+    top: 10px;
+    right:10px;
+}    
+.campoProj{
+    --bs-gutter-x: 0.5rem !important;
+    --bs-gutter-y: 0.5rem !important;
+}
+.campoIconstool{
+    position:relative;
+    width: 100%;
+    align-items: center;
+}
+.svgS{
+    margin: 40px 0 20px 0;
+    border-radius: 0 !important;
+}
+.svgS:hover{
+    border:none !important;
+}
+.poesia small, h4{
+    color: #02314e;
+    font-weight:bolder;
 }
