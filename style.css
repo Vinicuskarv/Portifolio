@@ -163,6 +163,7 @@ button:focus {
     border-radius: 30px;
 }
 .campoProj h5{
+    cursor:pointer;
     color: #000;
     font-size: 26px;
     -webkit-text-stroke-width: 0.3px;
@@ -207,4 +208,59 @@ button:focus {
 .poesia small, h4{
     color: #02314e;
     font-weight:bolder;
+}
+body {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+button#theme-toggle {
+    background-color: #ffffff; /* Cor de fundo do botão no tema claro */
+    color: #000000; /* Cor do texto no tema claro */
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80px;
+    height: 36px;
+    border-radius: 50px;
+    margin-right: 0;
+    transition: background-color 0.3s ease;
+    border: #5554582e 0.5px solid;
+}
+#dark{
+    margin: 0 5px;
+    height: 27px;
+    width: 27px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: #5554582e 0.5px solid;
+}
+body.dark-theme #dark{
+    margin-left: auto ;
+}
+body.dark-theme {
+background-color: #1f1f1f;
+}
+
+body.dark-theme button#theme-toggle {
+background-color: #000000b0;
+color: #ffffff;
+}
+body.dark-theme #navbar{
+    background-color: #1f1f1f;
+}
+body.dark-theme .txtEsplica{
+    color: #f1f1f1 !important;
+}
+body.dark-theme .campoProj h5{
+    color: #fffbfb;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #271a1a9a;
+}
+body.dark-theme #footer{
+    background-color: #0b0b0b;
+}
+body.dark-theme #footer p,body.dark-theme #ContainerPrinc p,body.dark-theme #ContainerPrinc h2 ,
+body.dark-theme #ContainerPrinc h4, body.dark-theme #ContainerPrinc small{
+    color: #f1f1f1;
 }
