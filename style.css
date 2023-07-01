@@ -260,7 +260,10 @@ body.dark-theme .campoProj h5{
 body.dark-theme #footer{
     background-color: #0b0b0b;
 }
-body.dark-theme #footer p,body.dark-theme #ContainerPrinc p,body.dark-theme #ContainerPrinc h2 ,
+body.dark-theme #footer p,body.dark-theme #ContainerPrinc p,body.dark-theme #ContainerPrinc h2,
 body.dark-theme #ContainerPrinc h4, body.dark-theme #ContainerPrinc small{
     color: #f1f1f1;
+}
+body.dark-theme .contaiIcons{
+    background: -webkit-linear-gradient(#2af59ab1, #009cfd88);
 }
